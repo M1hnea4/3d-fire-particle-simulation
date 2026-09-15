@@ -7,6 +7,7 @@
 A real-time 3D particle system built with Python and VPython that simulates the thermodynamic and kinetic behavior of fire. The simulation dynamically adjusts particle vectors, color temperature, and convection draft based on a user-controlled intensity slider.
 
 ### ⚙️ Physics & Rendering Engine
+
 * **Particle Lifecycle Management:** Independently tracks and renders 400 sphere entities. Particles are continuously recycled upon reaching their maximum calculated height or dropping below the opacity threshold.
 * **Vector Mathematics & Kinematics:** Implements real-time spatial calculations for convection draft (pulling particles toward the central Y-axis as they rise) and randomized X/Z axis flickering.
 * **Dynamic Linear Interpolation (Lerp):** smoothly transitions the RGB color vectors from a low-intensity state (wide, slow, orange/red) to a high-intensity state (thin, fast, blue) based on real-time UI slider input.
